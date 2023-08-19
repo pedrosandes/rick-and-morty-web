@@ -1,4 +1,4 @@
-import { Roboto } from "@next/font/google";
+import { Roboto } from "next/font/google";
 import Header from "@components/Header";
 import "./globals.css";
 import Footer from "@components/Footer";
@@ -6,6 +6,7 @@ import Footer from "@components/Footer";
 const customFont = Roboto({
   weight: ["400", "700"],
   display: "swap",
+  preload: false,
 });
 
 export default function RootLayout({

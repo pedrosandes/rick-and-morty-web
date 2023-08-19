@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { use, useState } from "react";
+import { use } from "react";
 import Link from "next/link";
 import { BiArrowBack } from "react-icons/bi";
 

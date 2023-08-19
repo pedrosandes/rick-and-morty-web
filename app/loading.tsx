@@ -1,5 +1,4 @@
 import Image from "next/image";
-import React, { useState } from "react";
 import LogoName from "@assets/imgs/logo-name.png";
 
 export default function loading() {
